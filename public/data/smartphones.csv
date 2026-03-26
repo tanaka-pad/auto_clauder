@@ -1,21 +1,103 @@
 id,brand,model,carrier,release_year,os,os_version,display_size,display_resolution_w,display_resolution_h,cpu,ram_gb,storage_gb,battery_mah,camera_main_mp,camera_front_mp,support_5g,support_nfc,waterproof_ipx
-1,Apple,iPhone 16 Pro,SIMフリー,2024,iOS,18,6.3,1206,2622,Apple A18 Pro,8,256,3582,48,12,true,true,IP68
-2,Apple,iPhone 16,SIMフリー,2024,iOS,18,6.1,1179,2556,Apple A18,8,128,3561,48,12,true,true,IP68
-3,Apple,iPhone 15 Pro Max,SIMフリー,2023,iOS,17,6.7,1290,2796,Apple A17 Pro,8,256,4422,48,12,true,true,IP68
-4,Apple,iPhone 15,SIMフリー,2023,iOS,17,6.1,1179,2556,Apple A16 Bionic,6,128,3349,48,12,true,true,IP68
-5,Samsung,Galaxy S25 Ultra,SIMフリー,2025,Android,15,6.9,1440,3088,Snapdragon 8 Elite,12,256,5000,200,12,true,true,IP68
-6,Samsung,Galaxy S25,SIMフリー,2025,Android,15,6.2,1080,2340,Snapdragon 8 Elite,12,128,4000,50,12,true,true,IP68
-7,Google,Pixel 9 Pro,SIMフリー,2024,Android,15,6.3,1280,2856,Google Tensor G4,16,256,4700,50,42,true,true,IP68
-8,Google,Pixel 9,SIMフリー,2024,Android,15,6.3,1080,2424,Google Tensor G4,12,128,4700,50,10.5,true,true,IP68
-9,Sony,Xperia 1 VI,docomo,2024,Android,14,6.5,1080,2340,Snapdragon 8 Gen 3,12,256,5000,48,12,true,true,IP65/68
-10,Sony,Xperia 5 V,SIMフリー,2023,Android,13,6.1,1080,2520,Snapdragon 8 Gen 2,8,128,5000,48,12,true,true,IP68
-11,Sharp,AQUOS sense9,SIMフリー,2024,Android,14,6.1,1080,2432,Snapdragon 7s Gen 2,6,128,5000,50,8,false,true,IP68
-12,Sharp,AQUOS R9,SIMフリー,2024,Android,14,6.39,1080,2340,Snapdragon 7+ Gen 3,12,256,5000,50,13,true,true,IP68
-13,Fujitsu,arrows We2 Plus,SIMフリー,2024,Android,14,6.6,1080,2400,Snapdragon 7s Gen 2,8,128,5000,50,13,false,true,IP68
-14,Kyocera,GRATINA,au,2024,Android,14,6.1,720,1560,Snapdragon 4 Gen 1,4,64,4000,13,5,false,true,IPX4/5/7/8
-15,OPPO,Reno12 A,SIMフリー,2024,Android,14,6.7,1080,2400,Dimensity 7050,8,128,5000,50,8,false,true,IP65
-16,Xiaomi,Redmi Note 13 Pro+ 5G,SIMフリー,2023,Android,13,6.67,1220,2712,Dimensity 7200 Ultra,12,256,5000,200,16,true,true,IP68
-17,ASUS,Zenfone 11 Ultra,SIMフリー,2024,Android,14,6.78,1080,2400,Snapdragon 8 Gen 3,12,256,5500,50,13,true,true,IP68
-18,OnePlus,12,SIMフリー,2024,Android,14,6.82,1440,3168,Snapdragon 8 Gen 3,12,256,5400,50,32,true,true,IP65
-19,Nothing,Phone (2a),SIMフリー,2024,Android,14,6.7,1080,2412,Dimensity 7350 Pro,8,128,5000,50,32,false,true,IP54
-20,Motorola,edge 50 Pro,SIMフリー,2024,Android,14,6.7,1220,2712,Snapdragon 7s Gen 2,12,256,4500,50,10,false,true,IP68
+1,Apple,iPhone SE (第2世代),SIMフリー,2020,iOS,13,4.7,1334,750,Apple A13 Bionic,3,64,1821,12,7,false,true,IP67
+2,Apple,iPhone 12,SIMフリー,2020,iOS,14,6.1,2532,1170,Apple A14 Bionic,4,128,2815,12,12,true,true,IP68
+3,Apple,iPhone 12 Pro,SIMフリー,2020,iOS,14,6.1,2532,1170,Apple A14 Bionic,6,128,2815,12,12,true,true,IP68
+4,Apple,iPhone 13,SIMフリー,2021,iOS,15,6.1,2532,1170,Apple A15 Bionic,4,128,3227,12,12,true,true,IP68
+5,Apple,iPhone 13 Pro,SIMフリー,2021,iOS,15,6.1,2532,1170,Apple A15 Bionic,6,128,3095,12,12,true,true,IP68
+6,Apple,iPhone SE (第3世代),SIMフリー,2022,iOS,15,4.7,1334,750,Apple A15 Bionic,4,64,2018,12,7,true,true,IP67
+7,Apple,iPhone 14,SIMフリー,2022,iOS,16,6.1,2532,1170,Apple A15 Bionic,6,128,3279,12,12,true,true,IP68
+8,Apple,iPhone 14 Pro,SIMフリー,2022,iOS,16,6.1,2556,1179,Apple A16 Bionic,6,128,3200,48,12,true,true,IP68
+9,Apple,iPhone 15,SIMフリー,2023,iOS,17,6.1,2556,1179,Apple A16 Bionic,6,128,3349,48,12,true,true,IP68
+10,Apple,iPhone 15 Pro,SIMフリー,2023,iOS,17,6.1,2556,1179,Apple A17 Pro,8,256,3274,48,12,true,true,IP68
+11,Apple,iPhone 16,SIMフリー,2024,iOS,18,6.1,2556,1179,Apple A18,8,128,3561,48,12,true,true,IP68
+12,Apple,iPhone 16 Pro,SIMフリー,2024,iOS,18,6.3,2622,1206,Apple A18 Pro,8,256,3582,48,12,true,true,IP68
+13,Apple,iPhone 17,SIMフリー,2025,iOS,18,6.1,2556,1179,Apple A19,8,128,3578,48,12,true,true,IP68
+14,Apple,iPhone 17 Pro,SIMフリー,2025,iOS,18,6.3,2622,1206,Apple A19 Pro,12,256,3582,48,12,true,true,IP68
+15,Samsung,Galaxy S21,SIMフリー,2021,Android,11,6.2,2400,1080,Snapdragon 888,8,256,4000,12,10,true,true,IP68
+16,Samsung,Galaxy S22,SIMフリー,2022,Android,12,6.1,2340,1080,Snapdragon 8 Gen 1,8,256,3700,50,10,true,true,IP68
+17,Samsung,Galaxy S23,SIMフリー,2023,Android,13,6.1,2340,1080,Snapdragon 8 Gen 2,8,256,3900,50,12,true,true,IP68
+18,Samsung,Galaxy S24,SIMフリー,2024,Android,14,6.2,2340,1080,Snapdragon 8 Gen 3,8,256,4000,50,12,true,true,IP68
+19,Samsung,Galaxy S25,SIMフリー,2025,Android,15,6.2,2340,1080,Snapdragon 8 Elite,12,256,4000,50,12,true,true,IP68
+20,Samsung,Galaxy S25 Ultra,SIMフリー,2025,Android,15,6.9,3088,1440,Snapdragon 8 Elite,12,256,5000,200,12,true,true,IP68
+21,Samsung,Galaxy S26,SIMフリー,2026,Android,16,6.3,2340,1080,Snapdragon 8 Elite Gen 5,12,256,4300,50,12,true,true,IP68
+22,Samsung,Galaxy S26 Ultra,SIMフリー,2026,Android,16,6.9,3120,1440,Snapdragon 8 Elite Gen 5,12,256,5000,200,12,true,true,IP68
+23,Samsung,Galaxy A54 5G,SIMフリー,2023,Android,13,6.4,2340,1080,Exynos 1380,8,256,5000,50,32,true,true,IP67
+24,Samsung,Galaxy A55 5G,SIMフリー,2024,Android,14,6.6,2340,1080,Exynos 1480,8,256,5000,50,32,true,true,IP67
+25,Samsung,Galaxy Z Flip6,SIMフリー,2024,Android,14,6.7,2640,1080,Snapdragon 8 Gen 3,12,256,4000,50,10,true,true,IPX8
+26,Samsung,Galaxy Z Fold6,SIMフリー,2024,Android,14,7.6,2160,1856,Snapdragon 8 Gen 3,12,256,4400,50,10,true,true,IP48
+27,Google,Pixel 5,SIMフリー,2020,Android,11,6,2340,1080,Snapdragon 765G,8,128,4080,12.2,8,true,true,IP68
+28,Google,Pixel 6,SIMフリー,2021,Android,12,6.4,2400,1080,Google Tensor,8,128,4614,50,8,true,true,IP68
+29,Google,Pixel 6a,SIMフリー,2022,Android,12,6.1,2400,1080,Google Tensor,6,128,4410,12.2,8,true,true,IP67
+30,Google,Pixel 7,SIMフリー,2022,Android,13,6.3,2400,1080,Google Tensor G2,8,128,4355,50,10.8,true,true,IP68
+31,Google,Pixel 7a,SIMフリー,2023,Android,13,6.1,2400,1080,Google Tensor G2,8,128,4385,64,13,true,true,IP67
+32,Google,Pixel 8,SIMフリー,2023,Android,14,6.2,2400,1080,Google Tensor G3,8,128,4575,50,10.5,true,true,IP68
+33,Google,Pixel 8a,SIMフリー,2024,Android,14,6.1,2400,1080,Google Tensor G3,8,256,4492,64,13,true,true,IP67
+34,Google,Pixel 9,SIMフリー,2024,Android,15,6.3,2424,1080,Google Tensor G4,12,128,4700,50,10.5,true,true,IP68
+35,Google,Pixel 9 Pro,SIMフリー,2024,Android,15,6.3,2856,1280,Google Tensor G4,16,256,4700,50,42,true,true,IP68
+36,Google,Pixel 9a,SIMフリー,2025,Android,15,6.3,2424,1080,Google Tensor G4,8,256,5100,48,13,true,true,IP67
+37,Google,Pixel 10,SIMフリー,2025,Android,16,6.3,2424,1080,Google Tensor G5,12,128,4970,48,10.5,true,true,IP68
+38,Google,Pixel 10a,SIMフリー,2026,Android,16,6.1,2400,1080,Google Tensor G4,8,256,5100,48,13,true,true,IP67
+39,Sony,Xperia 1 III,SIMフリー,2021,Android,11,6.5,3840,1644,Snapdragon 888,12,256,4500,12,8,true,true,IP68
+40,Sony,Xperia 5 III,SIMフリー,2021,Android,11,6.1,2520,1080,Snapdragon 888,8,256,4500,12,8,true,true,IP68
+41,Sony,Xperia 10 IV,SIMフリー,2022,Android,12,6,2520,1080,Snapdragon 695,6,128,5000,12,8,true,true,IP68
+42,Sony,Xperia 1 IV,SIMフリー,2022,Android,12,6.5,3840,1644,Snapdragon 8 Gen 1,12,256,5000,12,12,true,true,IP68
+43,Sony,Xperia 5 IV,SIMフリー,2022,Android,12,6.1,2520,1080,Snapdragon 8 Gen 1,8,256,5000,12,12,true,true,IP68
+44,Sony,Xperia 10 V,SIMフリー,2023,Android,13,6.1,2520,1080,Snapdragon 695,6,128,5000,48,8,true,true,IPX5/8
+45,Sony,Xperia 1 V,SIMフリー,2023,Android,13,6.5,3840,1644,Snapdragon 8 Gen 2,12,256,5000,52,12,true,true,IP68
+46,Sony,Xperia 5 V,SIMフリー,2023,Android,13,6.1,2520,1080,Snapdragon 8 Gen 2,8,128,5000,48,12,true,true,IP68
+47,Sony,Xperia 1 VI,docomo,2024,Android,14,6.5,2340,1080,Snapdragon 8 Gen 3,12,256,5000,48,12,true,true,IP65/68
+48,Sony,Xperia 10 VI,SIMフリー,2024,Android,14,6.1,2520,1080,Snapdragon 6 Gen 1,6,128,5000,48,8,true,true,IP65/68
+49,Sony,Xperia 1 VII,SIMフリー,2025,Android,15,6.5,2340,1080,Snapdragon 8 Elite,12,256,5000,48,12,true,true,IP65/68
+50,Sony,Xperia 10 VII,SIMフリー,2025,Android,15,6.1,2520,1080,Snapdragon 6 Gen 3,8,128,5000,48,8,true,true,IP65/68
+51,Sharp,AQUOS sense6,SIMフリー,2021,Android,11,6.1,2432,1080,Snapdragon 690 5G,4,128,4570,48,8,true,true,IP68
+52,Sharp,AQUOS R6,SIMフリー,2021,Android,11,6.6,2730,1260,Snapdragon 888,12,128,5000,47,12.6,true,true,IP68
+53,Sharp,AQUOS sense7,SIMフリー,2022,Android,12,6.1,2432,1080,Snapdragon 695 5G,6,128,4570,50,8,true,true,IP68
+54,Sharp,AQUOS R7,SIMフリー,2022,Android,12,6.6,2730,1260,Snapdragon 8 Gen 1,12,256,5000,47,12.6,true,true,IP68
+55,Sharp,AQUOS sense8,SIMフリー,2023,Android,13,6.1,2432,1080,Snapdragon 6 Gen 1,6,128,5000,50,8,true,true,IP68
+56,Sharp,AQUOS R8,SIMフリー,2023,Android,13,6.6,2730,1260,Snapdragon 8 Gen 2,12,256,5000,50,12.6,true,true,IP68
+57,Sharp,AQUOS wish4,SIMフリー,2024,Android,14,6,1520,720,Snapdragon 6s Gen 3,4,64,4570,50,8,false,true,IP67
+58,Sharp,AQUOS sense9,SIMフリー,2024,Android,14,6.1,2432,1080,Snapdragon 7s Gen 2,6,128,5000,50,8,false,true,IP68
+59,Sharp,AQUOS R9,SIMフリー,2024,Android,14,6.39,2340,1080,Snapdragon 7+ Gen 3,12,256,5000,50,13,true,true,IP68
+60,Sharp,AQUOS R10,SIMフリー,2025,Android,15,6.6,2730,1260,Snapdragon 7+ Gen 3,12,256,5000,50,12.6,true,true,IP68
+61,Fujitsu,arrows Be4 Plus,SIMフリー,2021,Android,11,5.9,2520,1080,Snapdragon 765G,4,64,4000,13,8,false,true,IPX8
+62,Fujitsu,arrows 5G II,docomo,2022,Android,12,6.7,2520,1080,Snapdragon 888,12,256,5000,50,24,true,true,IP68
+63,Fujitsu,arrows We,SIMフリー,2022,Android,12,5.9,1560,720,Snapdragon 480 5G,4,64,4000,13,5,true,true,IPX5/8
+64,Fujitsu,arrows N,SIMフリー,2023,Android,13,6.24,2432,1080,Snapdragon 695 5G,4,128,4500,50,8,true,true,IP68
+65,Fujitsu,arrows We2,SIMフリー,2023,Android,13,5.9,1560,720,Snapdragon 480+,4,64,4000,13,5,true,true,IPX5/8
+66,Fujitsu,arrows We2 Plus,SIMフリー,2024,Android,14,6.6,2400,1080,Snapdragon 7s Gen 2,8,128,5000,50,13,false,true,IP68
+67,Kyocera,DIGNO SX3,SIMフリー,2023,Android,13,5.47,1792,828,Snapdragon 690 5G,4,64,3600,13,5,true,true,MIL/IPX5/8
+68,Kyocera,DIGNO BX3,SIMフリー,2023,Android,13,5,1520,720,Snapdragon 480 5G,4,32,3000,13,5,true,true,IPX5/8
+69,Kyocera,GRATINA,au,2024,Android,14,6.1,1560,720,Snapdragon 4 Gen 1,4,64,4000,13,5,false,true,IPX4/5/7/8
+70,Kyocera,TORQUE G06,SIMフリー,2024,Android,14,6.1,2432,1080,Snapdragon 695 5G,6,128,5000,48,8,true,true,MIL/IPX5/8
+71,Kyocera,DIGNO SX4,SIMフリー,2024,Android,14,5.47,1792,828,Snapdragon 695 5G,6,64,4400,48,5,true,true,MIL/IPX5/8
+72,OPPO,Reno7 A,SIMフリー,2022,Android,12,6.4,2400,1080,Snapdragon 695 5G,6,128,4500,48,16,false,true,IP67
+73,OPPO,Reno9 A,SIMフリー,2023,Android,13,6.4,2400,1080,Snapdragon 695 5G,8,128,4500,64,16,false,true,IP67
+74,OPPO,A79 5G,SIMフリー,2023,Android,13,6.72,2400,1080,Dimensity 6020,4,128,5000,50,8,true,true,IP54
+75,OPPO,Reno10 Pro 5G,SIMフリー,2023,Android,13,6.7,2412,1080,Snapdragon 778G,12,256,4600,50,32,true,true,IP54
+76,OPPO,Reno11 A,SIMフリー,2024,Android,14,6.7,2412,1080,Dimensity 7050,8,256,5000,64,32,false,true,IP65
+77,OPPO,Reno12 A,SIMフリー,2024,Android,14,6.7,2400,1080,Dimensity 7050,8,128,5000,50,8,false,true,IP65
+78,OPPO,A3,SIMフリー,2024,Android,14,6.67,2400,1080,Snapdragon 695 5G,8,256,5000,50,8,false,true,IP67
+79,OPPO,Reno13 A,SIMフリー,2025,Android,15,6.7,2400,1080,Dimensity 7050,8,256,5000,50,8,false,true,IP65
+80,Xiaomi,Redmi Note 11,SIMフリー,2022,Android,11,6.43,2400,1080,Snapdragon 680,4,128,5000,50,13,false,true,IP53
+81,Xiaomi,Redmi Note 12,SIMフリー,2023,Android,13,6.67,2400,1080,Snapdragon 685,4,128,5000,50,13,false,true,IP53
+82,Xiaomi,Redmi Note 13 Pro+ 5G,SIMフリー,2023,Android,13,6.67,2712,1220,Dimensity 7200 Ultra,12,256,5000,200,16,true,true,IP68
+83,Xiaomi,13T,SIMフリー,2023,Android,13,6.67,2712,1220,Dimensity 8200 Ultra,8,256,5000,50,20,true,true,IP68
+84,Xiaomi,14T,SIMフリー,2024,Android,14,6.67,2712,1220,Dimensity 8300 Ultra,12,256,5000,50,32,true,true,IP68
+85,Xiaomi,Redmi 14C,SIMフリー,2024,Android,14,6.88,1640,720,MediaTek Helio G85,4,128,5160,50,13,false,false,なし
+86,Xiaomi,Redmi Note 14 Pro 5G,SIMフリー,2025,Android,15,6.67,2712,1220,Dimensity 7300 Ultra,8,256,5500,200,20,true,true,IP66
+87,Xiaomi,Redmi 15 5G,SIMフリー,2025,Android,15,6.9,2460,1080,Snapdragon 6s Gen 3,8,256,7000,50,13,true,true,IP64
+88,ASUS,Zenfone 8,SIMフリー,2021,Android,11,5.9,2400,1080,Snapdragon 888,8,256,4000,64,12,true,true,IP68
+89,ASUS,Zenfone 9,SIMフリー,2022,Android,12,5.9,2400,1080,Snapdragon 8+ Gen 1,8,256,4300,50,12,true,true,IP68
+90,ASUS,Zenfone 10,SIMフリー,2023,Android,13,5.9,2400,1080,Snapdragon 8 Gen 2,8,256,4300,50,12,true,true,IP68
+91,ASUS,Zenfone 11 Ultra,SIMフリー,2024,Android,14,6.78,2400,1080,Snapdragon 8 Gen 3,12,256,5500,50,13,true,true,IP68
+92,ASUS,ROG Phone 8,SIMフリー,2024,Android,14,6.78,2400,1080,Snapdragon 8 Gen 3,16,512,5500,50,32,true,true,IP68
+93,Nothing,Phone (1),SIMフリー,2022,Android,12,6.55,2400,1080,Snapdragon 778G+,8,256,4500,50,16,false,true,IP53
+94,Nothing,Phone (2),SIMフリー,2023,Android,13,6.7,2412,1080,Snapdragon 8+ Gen 1,8,256,4700,50,32,false,true,IP54
+95,Nothing,Phone (2a),SIMフリー,2024,Android,14,6.7,2412,1080,Dimensity 7350 Pro,8,128,5000,50,32,false,true,IP54
+96,OnePlus,11,SIMフリー,2023,Android,13,6.7,3216,1440,Snapdragon 8 Gen 2,16,256,4800,50,16,true,true,IP64
+97,OnePlus,12,SIMフリー,2024,Android,14,6.82,3168,1440,Snapdragon 8 Gen 3,12,256,5400,50,32,true,true,IP65
+98,Motorola,edge 40 Pro,SIMフリー,2023,Android,13,6.67,2400,1080,Snapdragon 8 Gen 2,12,256,4600,50,60,true,true,IP68
+99,Motorola,edge 50 Pro,SIMフリー,2024,Android,14,6.7,2712,1220,Snapdragon 7s Gen 2,12,256,4500,50,10,false,true,IP68
+100,Motorola,razr 50,SIMフリー,2024,Android,14,6.9,2640,1080,Dimensity 7300X,8,256,4200,50,32,false,true,IP52
+101,Rakuten Mobile,Rakuten Hand 5G,楽天モバイル,2021,Android,11,5.1,2520,1080,Snapdragon 765G,6,128,2760,48,16,true,true,IPX4
+102,Rakuten Mobile,Rakuten Big S,楽天モバイル,2021,Android,11,6.9,3840,1644,Snapdragon 888,6,128,5000,48,8,true,true,IPX4
